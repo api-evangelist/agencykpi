@@ -42,5 +42,8 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AgencyKPI is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+AgencyKPI, Inc. was an Austin, Texas insurtech founded in 2017 by Trent Richmond and Bobby Billman, building a business intelligence and benchmarking platform for the independent insurance distribution channel — agency networks, independent agencies, carriers and wholesalers. The platform (marketed as Harmony) ingested, cleaned and normalized policy, premium and commission data out of agency management systems and carrier feeds, then presented benchmarking, collaborative planning and operational reporting on top of it, plus a managed insurance data lake for customer data teams. The company raised a Series A in 2020 from insurance industry investors and a Series B in 2022 that included Live Oak Ventures.
+
+**Status: defunct.** As of 2026 AgencyKPI has ceased operations. `agencykpi.com` serves a single service notice — "AgencyKPI Services Are No Longer Available" — and no developer portal, documentation, or API surface remains reachable. Contract discovery on 2026-08-06 found only soft-404s: `/openapi.json`, `/llms.txt`, `/.well-known/security.txt` and `/.well-known/agent-card.json` all return HTTP 200 with the same shutdown-notice HTML as a random control path, `api.` / `docs.` / `developer.agencykpi.com` do not resolve, and the old marketing mirror `akpi-public-website.webflow.io` hard-404s.
+
+- https://www.agencykpi.com/

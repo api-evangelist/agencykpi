@@ -1,17 +1,36 @@
 aid: agencykpi
 name: AgencyKPI
-description: 'AgencyKPI is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'AgencyKPI, Inc. was an Austin, Texas insurtech founded in 2017 by Trent
+  Richmond and Bobby Billman, building a business intelligence and benchmarking platform
+  for the independent insurance distribution channel — agency networks, independent
+  agencies, carriers and wholesalers. The platform (marketed as Harmony) ingested,
+  cleaned and normalized policy, premium and commission data out of agency management
+  systems and carrier feeds, then presented benchmarking, collaborative planning and
+  operational reporting on top of it, plus a managed insurance data lake for customer
+  data teams. The company raised a Series A in 2020 from insurance industry investors
+  and a Series B in 2022 that included Live Oak Ventures. As of 2026 AgencyKPI has
+  ceased operations: agencykpi.com serves only a single-page service notice stating
+  the platform has been discontinued effective immediately, and no developer, documentation
+  or API surface remains reachable.'
 url: https://raw.githubusercontent.com/api-evangelist/agencykpi/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
 x-tier-reason: harvest
+x-status: defunct
 specificationVersion: '0.20'
 created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Insurance
+- Insurtech
+- Business Intelligence
+- Analytics
+- Benchmarking
+- Data Aggregation
+- Agency Management
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +39,31 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://www.agencykpi.com/
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: defunct
+  detail: agencykpi.com now serves one static "AgencyKPI Services Are No Longer Available"
+    notice page and soft-404s every other path — /openapi.json, /llms.txt, /.well-known/security.txt
+    and /.well-known/agent-card.json all return HTTP 200 with shutdown-notice HTML
+    byte-identical to a random control path, and the old marketing mirror akpi-public-website.webflow.io
+    now hard-404s at its root.
+  evidence:
+  - url: https://www.agencykpi.com/
+    status: 200
+  - url: https://www.agencykpi.com/openapi.json
+    status: 200
+  - url: https://www.agencykpi.com/.well-known/agent-card.json
+    status: 200
+  - url: https://api.agencykpi.com/
+    status: 0
+  - url: https://docs.agencykpi.com/
+    status: 0
+  - url: https://akpi-public-website.webflow.io/
+    status: 404
+  checked: '2026-08-06'
