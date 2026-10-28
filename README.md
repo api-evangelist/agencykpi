@@ -64,8 +64,34 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-AgencyKPI, Inc. was an Austin, Texas insurtech founded in 2017 by Trent Richmond and Bobby Billman, building a business intelligence and benchmarking platform for the independent insurance distribution channel — agency networks, independent agencies, carriers and wholesalers. The platform (marketed as Harmony) ingested, cleaned and normalized policy, premium and commission data out of agency management systems and carrier feeds, then presented benchmarking, collaborative planning and operational reporting on top of it, plus a managed insurance data lake for customer data teams. The company raised a Series A in 2020 from insurance industry investors and a Series B in 2022 that included Live Oak Ventures.
+> **No longer operating.** This company or product has shut down, been discontinued, or been deprecated. This profile is kept as a historical record and is not maintained or rated.
 
-**Status: defunct.** As of 2026 AgencyKPI has ceased operations. `agencykpi.com` serves a single service notice — "AgencyKPI Services Are No Longer Available" — and no developer portal, documentation, or API surface remains reachable. Contract discovery on 2026-08-06 found only soft-404s: `/openapi.json`, `/llms.txt`, `/.well-known/security.txt` and `/.well-known/agent-card.json` all return HTTP 200 with the same shutdown-notice HTML as a random control path, `api.` / `docs.` / `developer.agencykpi.com` do not resolve, and the old marketing mirror `akpi-public-website.webflow.io` hard-404s.
+AgencyKPI, Inc. was an Austin, Texas insurtech founded in 2017 by Trent Richmond and Bobby Billman, building a business intelligence and benchmarking platform for the independent insurance distribution channel — agency networks, independent agencies, carriers and wholesalers. The platform (marketed as Harmony) ingested, cleaned and normalized policy, premium and commission data out of agency management systems and carrier feeds, then presented benchmarking, collaborative planning and operational reporting on top of it, plus a managed insurance data lake for customer data teams. The company raised a Series A in 2020 from insurance industry investors and a Series B in 2022 that included Live Oak Ventures. As of 2026 AgencyKPI has ceased operations: agencykpi.com serves only a single-page service notice stating the platform has been discontinued effective immediately, and no developer, documentation or API surface remains reachable.
 
-- https://www.agencykpi.com/
+**Areas:** Company · Insurance · Insurtech · Business Intelligence · Analytics · Benchmarking · Data Aggregation · Agency Management · Defunct
+
+## AgencyKPI on APIs.io (historical record)
+
+Everything profiled for AgencyKPI is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agencykpi/](https://apis.io/providers/agencykpi/)** — or go straight to one of the APIs or properties below.
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.agencykpi.com/)
+
+## API Evangelist rating
+
+**Not rated** — this company is recorded as no longer operating, so no score is published. If it is in fact operating, say so on this repository and it will be re-profiled.
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgencyKPI: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agencykpi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
